@@ -57,3 +57,5 @@ class WebTests {
         verify(statistique, times(1)).ajouter(any(Voiture.class));
     }
 }
+
+// Tests pour le contrôleur de statistiques tp 3
