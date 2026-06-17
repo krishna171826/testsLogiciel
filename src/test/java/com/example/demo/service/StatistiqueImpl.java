@@ -37,7 +37,7 @@ class StatistiqueImplTest {
         statistiqueService.ajouter(new Voiture("Renault", 20000));
         statistiqueService.ajouter(new Voiture("Citroën", 30000));
 
-    
+
         Echantillon echantillon = statistiqueService.prixMoyen();
 
         assertNotNull(echantillon, "L'échantillon retourné ne doit pas être null");

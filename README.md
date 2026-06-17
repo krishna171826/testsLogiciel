@@ -105,6 +105,8 @@ git branch -D newcarservice
 git push origin --delete newcarservice
 ```
 
+Exercice pull request : modification réalisée sur la branche newcarservice.
+
 
 # TD 1 - JUnit
 
